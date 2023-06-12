@@ -15,7 +15,7 @@ header p{
     color: #808080;
 }
 
-.top-part{
+header .top-part{
     background-color: #000;
     display: flex;
     justify-content: space-between;
@@ -24,23 +24,23 @@ header p{
     padding: 0 405px;
 }
 
-.top-part .left-part, .top-part .right-part{
+header .top-part .left-part, header .top-part .right-part{
     display: flex;
     width: max-content;
     font-size: 12px;
 }
 
-.top-part .left-part img{
+header .top-part .left-part img{
     max-width: 16px;
     margin-right: 15px;
 }
 
-.top-part .right-part img{
+header .top-part .right-part img{
     max-width: 14px;
     margin-right: 10px;
 }
 
-.bot-part{
+header .bot-part{
     background-color: #0F0F0F;
     display: flex;
     height: 80px;
@@ -61,7 +61,7 @@ header .logo{
     margin-left: 30px;
 }
 
-.bot-part .right-part{
+header .bot-part .right-part{
     display: flex;
     align-items: center;
 }
@@ -234,4 +234,163 @@ header .buttons img{
 
 .collection-2018 a:hover{
     background-color: #ffffff22;
+}
+
+.fourth-screen{
+    background-color: #000;
+    color: #FFF;
+    padding: 120px 405px 110px 405px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.fourth-screen h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.fourth-screen .products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.fourth-screen .products .product{
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.brends{
+    padding: 60px 0 80px 0;
+    color: #FFF;
+    background-color: #0F0F0F;
+    text-align: center;
+}
+
+.brends h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.brends .line{
+    margin: 40px auto;
+}
+
+footer{
+    color: #FFF;
+}
+
+footer .top-part, footer .bot-part{
+    padding: 0 405px;
+}
+
+footer .top-part{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../static/footer-top-bg.png);
+    padding: 80px 405px 101px 405px;
+}
+
+.first-column, .second-column, .third-column{
+    max-width: 32%;
+}
+
+footer h1{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    margin-bottom: 20px;
+}
+
+.third-column p{
+    margin-bottom: 37px;
+}
+
+.third-column form{
+    display: flex;
+}
+
+.third-column input[type=text]{
+    border: none;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 15px;
+    font-size: 14px;
+    color: rgb(193, 193, 193);
+    min-height: 22px;
+}
+
+::-webkit-input-placeholder {
+   color:rgb(193, 193, 193);
+}
+:-moz-placeholder {
+   color:rgb(193, 193, 193);
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:rgb(193, 193, 193);
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:rgb(193, 193, 193);
+}
+::-ms-input-placeholder {
+   color:rgb(193, 193, 193);
+}
+
+::placeholder {
+   color:rgb(193, 193, 193);
+}
+
+.third-column input[type=text]:active, .third-column input[type=text]:hover, .third-column input[type=text]:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.third-column input[type=button]{
+    min-height: 42px;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #000;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.third-column input[type=button]:active{
+    background-color: #1F1F1F;
+}
+
+footer .bot-part{
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+footer .bot-part{
+    font-size: 12px;
 }
