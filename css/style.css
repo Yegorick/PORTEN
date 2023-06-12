@@ -198,3 +198,40 @@ header .buttons img{
 .new-collection a:hover{
     background-color: #ffffff22;
 }
+
+.third-screen{
+    display: flex;
+}
+
+.collection-2018{
+    background-color: #000;
+    color: #FFF;
+    width: 54%;
+    text-align: center;
+}
+
+.collection-2018 h1{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-top: 80px;
+}
+
+.collection-2018 p{
+    max-width: 471px;
+    margin: 0 auto;
+    margin-bottom: 61px;
+    font-size: 14px;
+}
+
+.collection-2018 a{
+    text-decoration: none;
+    color: #FFF;
+    border: #FFF solid 1px;
+    padding: 12px 28px;
+    text-transform: uppercase;
+}
+
+.collection-2018 a:hover{
+    background-color: #ffffff22;
+}
