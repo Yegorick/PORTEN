@@ -51,9 +51,12 @@ header p{
 
 .logo{
     font-family: 'Stick No Bills', sans-serif;
+    color: #FFF;
+}
+
+header .logo{
     font-size: 36px;
     font-weight: 700;
-    color: #FFF;
     margin-left: 30px;
 }
 
@@ -80,4 +83,37 @@ header nav .active{
 header .buttons img{
     width: 22px;
     margin-left: 20px;
+}
+
+.first-screen{
+    background-image: url(../static/first-screen-bg.png);
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-top: 80px;
+    padding-bottom: 154px;
+}
+
+.first-screen .logo-box{
+    margin: 80px auto;
+    border: #FFF solid 4px;
+    width: min-content;
+    white-space: nowrap;
+    padding: 94px 68px;
+}
+
+.first-screen .logo-box .logo{
+    font-size: 64px;
+    border-bottom: #FFF solid 2px;
+    margin-bottom: 3px;
+}
+
+.first-screen .logo-box h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.first-screen p{
+    margin: 0 auto;
+    max-width: 730px;
 }
